@@ -1,0 +1,321 @@
+@font-face{
+    font-family:'Releway';
+    src:url('../fonts/Raleway-Regular.ttf')
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body,
+#cover {
+    height:100%;
+
+}
+#mainslider{
+    height: 700px;
+    background: url(../img/insan.jpg) center center;
+    background-size: cover;
+}
+.slider{
+    width:100%;
+}
+.fixed-top{
+    max-width: 1140px;
+    margin: 20px auto;
+}
+.col6{
+    flex-grow: 1;
+    width: 90%;
+    padding: 20px;
+ 
+}
+.contanier{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: black
+}
+header .logo{
+    margin-right: auto;
+}
+
+header .logo img{
+    display: block;
+    height: 70px;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+     letter-spacing: 2px;
+}
+.menu li a{
+    padding: 1px 4px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #fff;
+    transition: all .5s ease;
+    
+}
+.menu li:hover a{
+    background: #500D16;
+    padding: 5px;
+    color: #fed136;
+}
+
+
+.pho{
+    padding-top: 150px;
+    color: #D54637;
+    font-style: italic;
+}
+
+#maincaption{
+    height: 700px;
+    background: rgba(0,0,0, .5)
+} 
+#body{
+    background-color: #121212;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.col-sm-6{
+    width: 50%;
+}
+h2{
+    color: white;
+}
+p.span{
+    font-size: 90px;
+}
+.col3{
+    flex-grow: 1;
+    width: 33.33%;
+}
+.item{
+    padding: 10px 20px;
+}
+.zoom{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.zoom img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+}
+.item .itemtext{
+    text-align: center;
+    border: 1px solid #500D16;
+}
+
+.item:hover .zoom img{
+    transform: scale(1.25);
+    
+}
+.item:hover h3 {
+    color: #fff;
+}
+.item:hover .itemtext {
+    background: #500d16;
+    color: #fff;
+    transition: all .5 ease;
+}
+feutures{
+    background-color: #0E0E0E;
+}
+.bottombody{
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.enginebody .contanier{
+    justify-content: space-between;
+}
+.enginecontanier {
+    position: relative;
+    width: 100%;
+}
+.imageover {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.engineoverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(80,13,22, .7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    
+}
+.enginecontanier:hover .engineoverlay{
+    width: 100%;
+}
+
+.enginetext {
+    white-space: nowrap;
+    color:#fff;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 20px;
+    
+}
+.engineoverlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: rgba(80,13,22, .7);
+    overflow: hidden;
+    width: 0;
+    transition: .5s ease;
+    
+}
+.enginecontanier:hover .engineoverlay2{
+    width: 100%;
+    top: 0;
+}
+#square{
+    margin-top: 50px;
+    height: 500px;
+}
+.item-cirle{
+    border: 3px solid #fed136;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 200px;
+}
+#cover{
+    background-color: #121212;
+    height: 600px;
+}
+#cover1{
+    margin-left: 30px;
+    padding-top: 100px;
+}
+.cover 3{
+    margin-left: 500px;
+}
+#kv{
+    background-color: #0E0E0E;
+    height: 750px;
+}
+
+.kvcontanier{
+    position: relative;
+    width: 90%;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+#kvtext{
+    border: 1px solid red;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #fed136;
+    top:50%;
+}
+#kvtext p{
+    text-align: center;
+    top: 50%;
+}
+#sosial{
+    background-color: #121212;
+    height: 700px;
+}
+.content{
+    padding-top: 50px;
+}
+.yazi{
+    font-size: 15px;
+    color: #2E2F2C;
+}
+.yazi i{
+    color: #B74130;
+}
+
+.sebeke{
+    padding-left: 150px;
+}
+.fab:hover{
+    cursor: pointer;
+    color: #fed136;
+}
+li a{
+    color: white;
+    
+}
+li a:hover{
+    cursor: pointer;
+    color: #E13947;
+}
+#services{
+    height: 500px;
+    background-color: #0E0E0E;
+}
+.brand{
+    padding-top: 60px;
+    padding-left: 80px;
+}
+.col-md-3 h5{
+    color: white;
+     padding-left: 80px;
+    
+}
+#aboutus{
+    height: 400px;
+    background-color: #121212;
+    background: url('../img/arxa%20fon.jpg') no-repeat center center;
+    background-size: cover;
+}
+.aboutcaption{
+    padding-top: 150px;
+}
+#people{
+    height: 800px;
+    background-color: #0E0E0E;
+}
+
+#galleryheader{
+    height: 400px;
+    background:url('../img/kuce.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#bos{
+    height: 100px;
+    background-color: black;
+}
+#servicesheader{
+    height: 400px;
+    background-color: black;
+}
+#contactslider{
+    height: 400px;
+    background-color: black;
+}
+.senbbuuton:hover{
+    background-color: #F04E3C;
+}
+#calm{
+    height: 400px;
+    
+}
+.calmrun{
+    background-color: black;
+}
